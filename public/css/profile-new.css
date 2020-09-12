@@ -1,0 +1,267 @@
+﻿/* Custom tabs */
+.tabbable-custom > .nav-tabs > li.active {
+    border: none;
+}
+
+.tabbable-custom > .nav-tabs > li.active > a {
+    border: none;
+    background-color: #017184;
+    padding: 10px 14px !important;
+}
+
+.tabbable-custom > .nav-tabs > li.active > a:hover {
+    background-color: #017184;
+    border: none;
+    cursor: pointer;
+    padding: 10px 14px !important;
+}
+
+.tabbable-custom > .nav-tabs > li.active > a:focus {
+    color: #fff;
+    background-color: #017184;
+    border: none;
+}
+
+.tabbable-custom .nav > li {
+    border: none;
+    margin: 4px 0px 0px 0px;
+}
+
+.tabbable-custom .nav > li > a {
+    color: #fff;
+    border: none;
+    background-color: #919396;
+    margin: 4px 4px 0px 0px;
+}
+
+.tabbable-custom > .nav-tabs > li > a:hover {
+    color: #fff;
+    border: 1px solid #d4d4d4;
+    box-shadow: none;
+    padding: 5px 13px !important;
+    background-color: #919396;
+}
+
+.tab-content .portlet {
+    margin: 5px;
+}
+
+/* Primary Link */
+
+/*Tab Infor*/
+.tabbable-custom > .tab-content {
+    border: 1px solid #017184;
+    padding: 0;
+}
+
+.tabbable-custom .font-green {
+    color: #017184 !important;
+}
+
+#tabInfo {
+    padding: 0 !important;
+}
+
+.infor {
+    border-top: 1px solid #017184;
+}
+
+#tabInfo .portlet {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.tabbable-custom .portlet.light > .portlet-title {
+    min-height: 0px;
+    margin: 0px -5px;
+}
+
+.tabbable-custom .portlet.light > .portlet-title > .caption {
+    padding: 10px 10px;
+}
+
+.tabbable-custom .profile-usertitle-name {
+    color: #017184;
+}
+
+.tabbable-custom .profile-usertitle-job {
+    color: #017184;
+}
+
+.tabbable-custom .portlet.light .portlet-body {
+    padding: 15px !important;
+}
+
+/*Tab Learning*/
+
+.bg-blue {
+    background: #017184 !important;
+}
+
+.year-tab-learning {
+    margin: 5px;
+}
+
+#learning .portlet-body {
+    padding: 5px !important;
+}
+
+#learning ul {
+    border-bottom: 1px solid #017184 !important;
+}
+
+#learning .nav > li.active {
+    padding-top: 0px;
+}
+
+#learning ul li.active a {
+    border-radius: 0px !important;
+    background-color: #017184;
+    padding: 8px 14px !important;
+}
+
+#learning ul li.active a:hover {
+    border: none;
+    cursor: pointer;
+}
+
+#learning ul li.active a:focus {
+    border: none;
+}
+
+#learning .nav > li {
+    padding-top: 4px;
+}
+
+#learning ul li a {
+    border-radius: 0px;
+    padding: 4px 14px;
+}
+
+#learning ul li a:focus {
+    color: #fff !important;
+}
+
+
+#selecttab {
+    display:none;
+}
+#selecttab {
+    background-color: #017184;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    margin: 10px 0px;
+}
+#selecttab:focus{
+    box-shadow: none;
+}
+
+#selecttab-kid {
+    display:none;
+}
+#selecttab-kid {
+    background-color: #017184;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    margin: 10px 0px;
+}
+#selecttab-kid:focus{
+    box-shadow: none;
+}
+
+.nav li.for-evaluation.a {
+        border-radius: 0 !important;
+        margin-top: 4px;
+    }
+
+    .nav li.for-evaluation.active a {
+        margin-top: 0;
+        padding: 8px 14px !important;
+        border-radius: 0;
+    }
+
+    .nav li.for-evaluation.active:hover a {
+        padding: 8px 14px !important;
+        border: none !important;
+    }
+
+    .nav li.for-evaluation.active a:focus{
+        padding: 8px 14px !important;
+        border: none !important;
+    }
+
+@media only screen and (max-width: 668px) {
+    #selecttab {
+        display:block;
+    }
+    #selecttab-kid {
+        display:block;
+    }
+
+    .selecttab {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .tabbable-custom > .nav-tabs > li.active > a {
+        padding: 8px 14px !important;
+    }
+
+    .tabbable-custom > .nav-tabs > li.active > a:hover {
+        padding: 8px 14px !important;
+    }
+
+    .tabbable-custom .nav > li {
+        border: none;
+        margin: 4px 0px 0px 0px;
+    }
+
+    .tabbable-custom .nav > li > a {
+        color: #fff;
+        border: none;
+        background-color: #919396;
+        margin: 4px 4px 0px 0px;
+    }
+
+    .tabbable-custom > .nav-tabs > li > a:hover {
+        padding: 3px 13px !important;
+    }
+
+    .tabbable-custom .nav > li > a {
+        padding: 4px 14px !important;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .tabbable-custom > .nav-tabs > li.active > a {
+        padding: 10px 14px !important;
+    }
+
+    .tabbable-custom > .nav-tabs > li.active > a:hover {
+        padding: 10px 14px !important;
+    }
+
+    .tabbable-custom .nav > li {
+        border: none;
+        margin: 4px 0px 0px 0px;
+    }
+
+    .tabbable-custom .nav > li > a {
+        color: #fff;
+        border: none;
+        background-color: #919396;
+        margin: 4px 4px 0px 0px;
+    }
+
+    .tabbable-custom > .nav-tabs > li > a:hover {
+        padding: 5px 13px !important;
+    }
+
+    .tabbable-custom .nav > li > a {
+        padding: 6px 14px !important;
+    }
+}

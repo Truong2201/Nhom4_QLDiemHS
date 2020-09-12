@@ -1,0 +1,51 @@
+form {
+    border: 3px solid 1px;
+  }
+
+  html, body{
+	font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    overflow-x: hidden;
+    /* background: url(../images/background_1366x703.png) no-repeat 0px 0px; */
+    background-image: url('../images/background_1366x703.png');
+	background-size:cover;
+}
+    .login {
+        position: absolute;
+        margin-left: 50px;
+        top: 30px;
+    }
+  /* Full-width inputs */
+  /* Set a style for all buttons */
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 20%;
+    }
+    
+    /* Add a hover effect for buttons */
+    button:hover {
+        opacity: 0.8;
+    }
+    
+    /* Center the avatar image inside this container */
+    .imgcontainer {
+        text-align: center;
+        margin: 200px 0 20px 0;
+    }
+    
+    /* Avatar image */
+    img.avatar {
+        width: 10%;
+        border-radius: 15%;
+    }
+    
+    /* Add padding to containers */
+    .container {
+        padding: 5px;
+        text-align: center;
+    }

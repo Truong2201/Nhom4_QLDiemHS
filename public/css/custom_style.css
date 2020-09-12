@@ -1,0 +1,670 @@
+﻿/*Màn hình kích thước 1024 - Bắt đầu*/
+@media only screen and (max-width: 1024px) {
+    .portlet.light > .portlet-title > .caption.caption-md > .caption-subject {
+        font-size: 11px !important;
+    }
+
+    .portlet.light > .portlet-title > .caption > .caption-subject {
+        font-size: 11px !important;
+    }
+
+    .portlet.light > .portlet-title > .caption.caption-md > i {
+        font-size: 11px !important;
+    }
+
+    .portlet.light > .portlet-title > .caption > i {
+        margin-top: 4.5px;
+        font-size: 11px;
+    }
+
+    body {
+        font-size: 11px;
+    }
+
+    #schedule .table thead tr th {
+        font-size: 11px !important;
+    }
+
+    #table-tr-schedule > td {
+        font-size: 11px !important;
+    }
+
+    .profile-usertitle-job {
+        font-size: 11px !important;
+    }
+
+    .profile-usertitle-name {
+        font-size: 11px !important;
+    }
+
+    .profile-usermenu ul li a {
+        font-size: 11px !important;
+    }
+
+    .portlet.light > .portlet-title > .actions .btn-icon-only {
+        /*height: 24px !important;
+        width: 24px !important;*/
+    }
+
+    #refresh-page {
+        /*width: 24px !important;
+        height: 24px !important;
+        padding-left: 3px !important;
+        padding-right: 6px !important;
+        padding-top: 3px !important;*/
+    }
+
+    /*page header when scroll*/
+    .page-header .page-header-menu .hor-menu .navbar-nav > li > a {
+        font-size: 11px !important;
+    }
+
+    /*Màn hình select - Bắt đầu*/
+    #phone-avatar .table.table-light > thead > tr > th {
+        font-size: 11px;
+    }
+
+    #phone-avatar .atavar-item {
+        height: 28pt !important;
+        width: 28pt !important;
+        min-width: 28pt !important;
+    }
+
+    #phone-avatar .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+        padding: 3px;
+    }
+
+    #phone-avatar .place-holder-pupil {
+        height: 38px !important;
+    }
+    /*Màn hình select - Kết thúc*/
+
+    .portlet > .portlet-title > .actions > .btn, .portlet > .portlet-title > .actions > .btn.btn-sm, .portlet > .portlet-title > .actions > .btn-group > .btn, .portlet > .portlet-title > .actions > .btn-group > .btn.btn-sm {
+        /*font-size: 11px;*/
+    }
+
+    #left {
+        /*padding-left: 4px !important;
+        padding-right: 4px !important;*/
+    }
+
+    #right {
+        /*padding-left: 4px !important;
+        padding-right: 4px !important;*/
+    }
+
+    /*dropdown box select date*/
+    .form-control, output {
+        font-size: 11px !important;
+        height: 28px;
+    }
+
+    /*Biểu đồ tăng trưởng*/
+    #healthModal .modal-content {
+        width: 90% !important;
+        margin: 0 auto;
+        font-size: 11px !important;
+    }
+
+    #healthModal h3 {
+        font-size: 14px !important;
+    }
+
+    .HealthInSection > p {
+        font-size: 11px !important;
+    }
+
+    .InfoPupilHeight {
+        width: 287px !important;
+    }
+
+    .InfoPupilWeight {
+        width: 287px !important;
+    }
+
+    .InfoPupilHeight2 {
+        width: 287px !important;
+    }
+
+    .InfoPupilWeight2 {
+        width: 287px !important;
+    }
+
+    .InfoPupilBMI {
+        width: 287px !important;
+    }
+
+    div.t-chart {
+        height: 68% !important;
+        margin-top: 1% !important;
+    }
+
+    #MonthlyGrowthChart .GIInSection .BoxMap4, .BoxMap3 {
+        background-size: contain !important;
+    }
+}
+/*Màn hình kích thước 1024 - Kết thúc*/
+
+/*Màn hình điện thoai - Bắt đầu*/
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .table td, .table th {
+        font-size: 12px;
+    }
+
+    #phone-avatar .atavar-item {
+        height: 25pt !important;
+        width: 25pt !important;
+        min-width: 25pt !important;
+    }
+
+    #phone-avatar {
+        padding: 0px 15px !important;
+    }
+}
+/*Màn hình điện thoai - Kết thúc*/
+
+/*Hover ở màn hình select*/
+#phone-avatar .op-05 {
+    opacity: 0.5 !important;
+}
+
+.page-content-inner {
+    margin-top: 15px;
+}
+
+.portlet {
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.12) !important;
+    border-radius: .25rem !important;
+}
+
+    .portlet.light {
+        padding: 0px 0px 15px 0px !important;
+        border: 1px solid rgba(0,0,0,.125) !important;
+        min-height: 30px !important;
+    }
+
+        .portlet.light > .portlet-title {
+            min-height: 40px !important;
+        }
+
+    .portlet > .portlet-title {
+        border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    }
+
+    .portlet.light > .portlet-title > .caption {
+        color: #666 !important;
+        padding: 9px 15px !important;
+    }
+
+    .portlet.light .portlet-body {
+        padding: 0px 10px !important;
+    }
+
+    .portlet > .portlet-title > .caption {
+        padding: 0px 0px !important;
+    }
+
+.profile-usertitle-job {
+    text-transform: none !important;
+    color: #017184 !important;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.profile-usertitle-name {
+    color: #017184 !important;
+}
+
+.portlet.light > .portlet-title > .actions {
+    padding: 6px 5px 5px 0px !important;
+}
+
+.tths-container .profile-usermenu ul li a {
+    padding: 4px !important;
+}
+
+/*menu profile*/
+.profile-usermenu {
+    padding-bottom: 12px;
+}
+
+    .profile-usermenu ul li {
+        padding: 5px;
+    }
+
+/*start icon zoom*/
+.portlet.light .btn.btn-circle.btn-icon-only.btn-default.active, .portlet.light .btn.btn-circle.btn-icon-only.btn-default:hover {
+    background: #017184 !important;
+    border-color: #017184 !important;
+}
+
+.portlet.light .btn.btn-circle.btn-icon-only.btn-default:hover, .portlet.light .btn.btn-circle.btn-icon-only.btn-default.active {
+    background: #017184 !important;
+    border-color: #017184 !important;
+}
+/*end icon zoom*/
+
+/*Bắt đầu màu thư*/
+.primary-link {
+    color: #017184 !important;
+    font-weight: 600 !important;
+}
+
+.date-info, .item-body.data-info {
+    font-size: 11px !important;
+}
+/*Kết thúc màu thư*/
+
+a {
+    color: #017184;
+}
+
+.btn.btn-outline.green {
+    border-color: #017184 !important;
+    color: #017184 !important;
+}
+
+    .btn.btn-outline.green:hover, .btn.btn-outline.green:active, .btn.btn-outline.green:active:hover, .btn.btn-outline.green:active:focus, .btn.btn-outline.green:focus, .btn.btn-outline.green.active {
+        border-color: #017184 !important;
+        color: #FFFFFF !important;
+        background-color: #017184 !important;
+    }
+
+#refresh-page {
+    /*width: 27px;
+    height: 27px;
+    padding-left: 7% !important;
+    padding-top: 7% !important;*/
+}
+
+/*Độ mờ của hình đại diện*/
+.op-05 {
+    opacity: 1 !important;
+}
+
+/*Đổi mật khẩu*/
+@media only screen and (max-width: 414px) {
+    #change_password {
+        width: 77% !important;
+        margin: 0 auto;
+        top: 20px;
+    }
+
+        #change_password h4 {
+            font-size: 15px !important;
+        }
+
+        #change_password .modal-footer {
+            padding: 0px !important;
+        }
+
+        #change_password .form-group.form-md-line-input.form-md-floating-label .form-control ~ label {
+            font-size: 12px !important;
+        }
+
+        #change_password .m-b-15 {
+            margin-bottom: 0px !important;
+        }
+
+        #change_password .btn {
+            font-size: 10px;
+        }
+
+        #change_password .form-control {
+            width: 100%;
+            height: 25px;
+        }
+}
+
+@media only screen and (width: 1024px) {
+    #change_password {
+        width: 40% !important;
+        margin: 0 auto;
+        top: 20px;
+    }
+
+        #change_password h4 {
+            font-size: 12px !important;
+            font-family: 'UTMAvo';
+        }
+
+        #change_password .modal-footer {
+            padding: 0px !important;
+        }
+
+        #change_password .form-group.form-md-line-input.form-md-floating-label .form-control ~ label {
+            font-size: 11px !important;
+        }
+
+        #change_password .m-b-15 {
+            margin-bottom: 0px !important;
+        }
+
+        #change_password .btn {
+            font-size: 10px;
+        }
+
+        #change_password .form-control {
+            width: 100%;
+            height: 25px;
+        }
+
+        #change_password .scroller {
+            height: fit-content !important;
+            height: -moz-fit-content !important;
+        }
+}
+
+@media only screen and (min-width: 1920px) {
+    .page-content {
+        min-height: 709px !important;
+    }
+}
+
+#bs-example-navbar-collapse-1 .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Background polka dots start*/
+body.page-md {
+    position: relative;
+}
+
+.image-background-layout {
+    position: absolute;
+}
+
+.background-left {
+    top: 0;
+    height: 100%;
+    left: 0px;
+}
+
+.background-right {
+    top: 0;
+    right: 0px;
+    height: 100%;
+}
+
+.background-top {
+    top: 0;
+    width: 100%;
+    right: 0px;
+}
+
+.background-bottom {
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+}
+/*Background polka dots end*/
+
+/*active nav tab Đánh giá sự phát triển*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #017184 !important;
+}
+
+/*title các thông tin mới*/
+.portlet.light > .portlet-title > .caption > .caption-subject {
+    font-size: 15px;
+}
+
+.portlet.light > .portlet-title > .caption.caption-md > i {
+    font-size: 15px;
+}
+
+.sp-table-row thead th {
+    color: #017184;
+}
+
+/*Microsoft Edge*/
+@supports (-ms-ime-align:auto) {
+    .t-vertical;
+
+{
+    writing-mode: unset !important;
+    transform: rotate(-90deg) !important;
+}
+
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+    .table tbody tr:nth-child(even) {
+        background-color: #F7F7F7;
+    }
+
+    .table > tbody > tr:hover > td:first-child {
+        border-left: 4px solid #017284 !important;
+    }
+
+    .table > tbody > tr > td .table > tbody > tr:hover > td:first-child {
+        border-left: 1px solid #e7ecf1 !important;
+    }
+
+#phone-avatar .table > tbody > tr:hover > td:first-child {
+    border-left: 2px solid #017284 !important;
+}
+
+#goodSubjects:hover > td:first-child {
+    border-left: 2px solid #017284 !important;
+}
+
+#schedule .table > tbody > tr:hover > td:first-child {
+    border-left: none !important;
+}
+
+.table-scrollable {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #ddd !important;
+}
+
+    .table-scrollable .sp-table-row thead tr {
+        background-color: #51aab2;
+        color: #fff !important;
+    }
+
+        .table-scrollable .sp-table-row thead tr th {
+            color: #fff !important;
+        }
+
+.no-border-header {
+    border: none !important;
+}
+
+    .no-border-header thead tr th {
+        border: none !important;
+    }
+
+#teachers {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hover-no-mark tbody tr:hover > td:first-child {
+    border-left: none;
+}
+
+/*Popup - button*/
+#change_password .modal-header {
+    background-color: #017184;
+    color: #FFF;
+    padding: 8px;
+}
+
+    #change_password .modal-header .close {
+        background-image: url("./../../assets/global/img/portlet-remove-icon-white.png") !important;
+        opacity: 1;
+        height: 15px;
+        width: 15px;
+    }
+
+#change_password .modal-body .modal-footer .btn.green {
+    border-radius: 30px !important;
+    background-color: #017184;
+    text-transform: inherit;
+}
+
+#change_password .modal-body .modal-footer .btn.dark.btn-outline {
+    border-radius: 30px !important;
+    background-color: #51aab2;
+    color: #FFF;
+    text-transform: inherit;
+}
+
+#change_password .modal-body .modal-footer .btn.green:hover {
+    background-color: #51aab2 !important;
+    border-color: #51aab2 !important;
+}
+
+#change_password .modal-body .modal-footer .btn.dark.btn-outline:hover {
+    background-color: #51aab2 !important;
+    border-color: #51aab2 !important;
+    opacity: 0.8;
+}
+
+#healthModal .modal-content .modal-footer .btn {
+    border-radius: 30px !important;
+    background-color: #51aab2;
+    color: #FFF;
+    text-transform: inherit;
+}
+
+    #healthModal .modal-content .modal-footer .btn:hover {
+        background-color: #51aab2 !important;
+        border-color: #51aab2 !important;
+        opacity: 0.8;
+    }
+
+/*style for no menu kid*/
+.no_menu_kid {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*Remove scroll*/
+.table-responsive {
+    overflow-x: hidden;
+}
+
+.MapContentSection {
+    height: 100%;
+}
+
+.table-scrollable {
+    overflow-x: hidden;
+}
+
+/*Popup chart*/
+.GIInSection .BoxMap {
+    padding: 0 !important;
+}
+
+    .GIInSection .BoxMap .MapContentSection {
+        width: 100% !important;
+    }
+
+.InfoPupilHeight {
+    float: right;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+.InfoPupilWeight {
+    float: right;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+.InfoPupilHeight2 {
+    float: right;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+.InfoPupilWeight2 {
+    float: right;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+.InfoPupilBMI {
+    float: right;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+div.t-chart {
+    height: 81%;
+    margin-top: 1% !important;
+}
+
+/*activiti kid*/
+.select-date-kid {
+    margin-top: 10px;
+}
+
+/*===*/
+/*Input-changepassword*/
+/*#newResetPassword, #repeatResetPassword, #currentPassword, #newPassword, #repeatPassword {
+    width: 50% !important;
+}
+
+.form-group.form-md-line-input .form-control ~ label,
+.form-group.form-md-line-input .form-control ~ .form-control-focus {
+    width: 50% !important;
+}*/
+
+
+#resetPassword .modal-body .modal-footer .btn.green {
+    border-radius: 30px !important;
+    background-color: #017184;
+    text-transform: inherit;
+}
+
+#resetPassword .modal-body .modal-footer .btn.dark.btn-outline {
+    border-radius: 30px !important;
+    background-color: #51aab2;
+    color: #FFF;
+    text-transform: inherit;
+}
+
+#resetPassword .modal-body .modal-footer .btn.green:hover {
+    background-color: #51aab2 !important;
+    border-color: #51aab2 !important;
+}
+
+#resetPassword .modal-body .modal-footer .btn.dark.btn-outline:hover {
+    background-color: #51aab2 !important;
+    border-color: #51aab2 !important;
+    opacity: 0.8;
+}
+
+#resetPassword .modal-header {
+    background-color: #017184;
+    color: #FFF;
+    padding: 8px;
+}
+
+#resetPassword .modal-header .close {
+    background-image: url("./../../assets/global/img/portlet-remove-icon-white.png") !important;
+    opacity: 1;
+    height: 15px;
+    width: 15px;
+}
+
+.form-group.form-md-line-input .form-control.edited:not([readonly]) ~ label:after,
+.form-group.form-md-line-input .form-control.edited:not([readonly]) ~ .form-control-focus:after,
+.form-group.form-md-line-input .form-control:focus:not([readonly]) ~ label:after,
+.form-group.form-md-line-input .form-control:focus:not([readonly]) ~ .form-control-focus:after,
+.form-group.form-md-line-input .form-control.focus:not([readonly]) ~ label:after,
+.form-group.form-md-line-input .form-control.focus:not([readonly]) ~ .form-control-focus:after {
+    background: #017184 !important;
+}
